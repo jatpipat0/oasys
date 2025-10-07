@@ -44,7 +44,8 @@ const Login = ({ onLogin }) => {
     <div className="login-wrapper">
       <div className="login-box">
         <div className="login-logo">
-          <img src="/logo.png" alt="Logo" />
+          <img src="https://img.freepik.com/premium-vector/warehouse-factory-logo-design-bold-professional-vector-concept_579306-26515.jpg" />
+          
         </div>
         <h2>เข้าสู่ระบบ</h2>
 

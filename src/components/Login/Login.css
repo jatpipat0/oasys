@@ -11,8 +11,8 @@ html, body, #root {
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background: #f0f2f5; /* สีพื้นหลัง */
+  background-color: #bbdefb; /* กล่องสถานะน้ำเงินอ่อน */
+  border: 1px solid #90caf9
 }
 
 /* wrapper */
@@ -25,7 +25,7 @@ body {
 
 /* กล่อง login */
 .login-box {
-  background: #fff;
+  background: #2d2a2a38;
   padding: 40px 30px;
   width: 360px;
   border-radius: 8px;
@@ -87,4 +87,21 @@ body {
 
 .btn-login:hover {
   background: #40a9ff;
+}
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://iconext.co.th/wp-content/uploads/2023/03/WMS_cover1-1.webp'); /* ชื่อไฟล์ของคุณ */
+  background-size: cover;           /* ทำให้ภาพขยายเต็มจอ */
+  background-position: center;      /* จัดตำแหน่งภาพให้อยู่กลาง */
+  background-repeat: no-repeat;     /* ไม่ให้ภาพซ้ำ */
+}
+
+.login-box {
+  background-color: rgba(255, 255, 255, 0.9); /* พื้นหลังโปร่งนิดๆ */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
